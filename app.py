@@ -5,7 +5,7 @@ app = Flask(__name__)
 
 @app.route('/')
 def home():
-    return '¡Hola desde Flask en Railway!'
+    return '¡Hola desde Flask!'
 
 if __name__ == '__main__':
     port = int(os.environ.get('PORT', 5000))  # Usa el puerto de Railway
